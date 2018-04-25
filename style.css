@@ -5,7 +5,7 @@ li.nav{
   color: white;
 }
 li{
-  font-family: Helvetica;
+  font-family: 'SuisseIntl-Book-WebM';
   font-size: 20px;
   letter-spacing: 0.5px;
   -webkit-font-smoothing: antialiased;
@@ -32,7 +32,7 @@ div.topnav{
 h1{
   text-align: center;;
   max-width: 60%;
-  font-family: 'LarishNeue';
+ 
   font-size: 42px;
   line-height: 52px;
   font-weight: normal;
@@ -41,6 +41,7 @@ h1{
 }
 h1.intro{
   padding-bottom: 20%;
+  font-family: 'LarishNeue';
   font-size: 42px;
   line-height: 52px;
 }
@@ -77,11 +78,11 @@ li{
   text-align: center;
   text-decoration: none;
   list-style: none;
-  font-family: Helvetica;
+  font-family: 'SuisseIntl-Book-WebM';
   color: white;
 }
 li.main{
-  font-family: Helvetica;
+  font-family: 'SuisseIntl-Book-WebM';
   padding-top: 25%;
   padding-bottom: 20px;
   letter-spacing: 0.5px;
@@ -174,6 +175,40 @@ h1.break{
         /* MOBILE!!!!!!!!!! */
 
 @media screen and (max-width:720px) {
+
+  h1.intro{
+    padding-top: 30%;
+  padding-bottom: 20%;
+  font-size: 20px;
+  line-height: 31px;
+  max-width: 90%;
+}
+
+li.client{
+
+  font-family: 'LarishNeue';
+   font-size: 20px;
+  line-height: 51px;
+
+
+}
+
+li.main{
+  font-family: 'SuisseIntl-Book-WebM'
+  padding-top: 25%;
+  padding-bottom: 20px;
+  letter-spacing: 0.5px;
+  font-size: 16px;
+
+
+}
+
+li.nav{
+display: inline-block;
+  color: white;
+  font-size: 14px;
+}
+
 
 
 
